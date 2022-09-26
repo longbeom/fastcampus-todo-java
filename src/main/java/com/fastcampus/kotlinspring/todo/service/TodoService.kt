@@ -3,7 +3,8 @@ package com.fastcampus.kotlinspring.todo.service
 import com.fastcampus.kotlinspring.todo.api.model.TodoRequest
 import com.fastcampus.kotlinspring.todo.domain.Todo
 import com.fastcampus.kotlinspring.todo.domain.TodoRepository
-import org.springframework.data.domain.Sort.*
+import org.springframework.data.domain.Sort.Direction
+import org.springframework.data.domain.Sort.by
 import org.springframework.data.repository.findByIdOrNull
 import org.springframework.http.HttpStatus
 import org.springframework.stereotype.Service
